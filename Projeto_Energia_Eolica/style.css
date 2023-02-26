@@ -1,0 +1,190 @@
+/* general styles */
+
+
+html,body{
+    height: 100%;
+    width:100%;
+  }
+  
+   .img-border {
+     border: 1px solid #ffffff;
+     border-radius: 1%;
+    }
+  
+  
+  /*padded section */
+  .pad-section{
+    padding:50px 0;
+  }
+  
+  .pad-section img{
+    width:100%;
+  }
+  
+  /* vertical-centered text */
+  .text-vcenter {
+    display: table-cell;
+    text-align:center;
+    vertical-align:middle;
+  }
+  .text-vcenter h1{
+    font-family:Quicksand, serif;
+    font-size: 5.5em;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #home{
+   background:url("img/home.jpg") no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+ 
+  #about{
+    background-color: #ECF2F7;
+    color:#060C0A;
+  }
+  
+  #portifolio{
+    background-color:white;
+    color: #3B5AA5;
+  }
+  
+  #portifolio h2{
+    font-family:Quicksand, serif;
+    font-weight: 500;
+  }
+  #portifolio .glyphicon{
+    border: 2px solid #3B5AA5;
+    border-radius: 5%;
+    display: inline-block;
+    font-size: 60px;
+    height: 220px;
+    line-height: 220px;
+    text-align: center;
+    vertical-align: middle;
+    width: 220px;
+  }
+  
+  #contact{
+    background: url("img/gif-contato.gif") no-repeat center center fixed;
+    display:table;
+    height: 400px;
+    position: relative;
+    width:100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  #contact .panel{
+    opacity: 0.9;
+    
+  }
+  
+  footer {
+    padding: 10px 0;
+  }
+  footer .glyphicon{
+    color: #333333;
+    font-size: 60px;
+  }
+  
+  footer .glyphicon :hover{
+    color: #306d9f;
+  }
+  
+  figure:hover+span {
+      bottom: -36px;
+      opacity: 1;
+  }
+  
+  /* Gray Scale */
+  .hover08 figure img {
+      -webkit-filter: grayscale(55%);
+      filter: grayscale(55%);
+    -webkit-transition: .3s ease-in-out;
+      transition: .3s ease-in-out;
+  }
+  .hover08 figure:hover img {
+      -webkit-filter: grayscale(0);
+      filter: grayscale(0);
+  }
+
+  .nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+  }  
+  .navbar {
+    background: rgba(0, 0, 0, 0.85);
+}
+.nav.navbar-nav.navbar-right li a {
+    color: white;
+}
+
+
+
+
+
+
+/*serviceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
+#noBrasil{
+  margin: 50px;
+}
+
+#services{
+  background-color: #ECF2F7;
+  color:#060C0A;
+}
+section h3.section-subheading {
+  margin-bottom: 50px;
+  text-transform: none;
+  font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+@media(min-width:768px) {
+  section {
+      padding: 50px 0;
+  }
+}
+
+.service-heading {
+  margin: 15px 0;
+}
+.text-muted {
+  color: #777;
+}
+
+#aerogerador{
+  text-align: justify;
+}
+#aerogerador h1 {
+  text-align: center;
+}
+
+.ruido{
+ border-left: #060C0A 3px solid;
+ padding-left: 15px;
+}
