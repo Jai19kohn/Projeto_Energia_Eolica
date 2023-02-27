@@ -36,7 +36,7 @@ html,body{
   }
   
   #home{
-   background:url("img/home.jpg") no-repeat center center fixed;
+   background:url("img/gif.gif") no-repeat center center fixed;
     display: table;
     height: 100%;
     position: relative;
@@ -141,19 +141,10 @@ html,body{
     color: white;
 }
 
-
-
-
-
-
-/*serviceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
-#noBrasil{
-  margin: 50px;
-}
-
 #services{
   background-color: #ECF2F7;
   color:#060C0A;
+  padding-block: 25px;
 }
 section h3.section-subheading {
   margin-bottom: 50px;
@@ -164,11 +155,6 @@ section h3.section-subheading {
   font-weight: 400;
 }
 
-@media(min-width:768px) {
-  section {
-      padding: 50px 0;
-  }
-}
 
 .service-heading {
   margin: 15px 0;
@@ -187,4 +173,175 @@ section h3.section-subheading {
 .ruido{
  border-left: #060C0A 3px solid;
  padding-left: 15px;
+}
+
+#gif {
+  margin-inline: auto;
+}
+#vantagens{
+  padding-block: 30px;
+  background-color: #ECF2F7;
+}
+.desenho img{
+  width: 50px;
+  text-align: center;
+}
+
+.desenho{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+  text-align: center;
+  margin-block: 10px;
+}
+.desenho p{
+  margin-top: 10px;
+}
+
+section#contact {
+  background-color: #222;
+  background-image: url(img/Vantagens.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-block: 50px;
+}
+
+section#contact .section-heading {
+  color: #fff;
+}
+
+section#contact .form-group {
+  margin-bottom: 25px;
+}
+
+section#contact .form-group input,
+section#contact .form-group textarea {
+  padding: 20px;
+}
+
+section#contact .form-group input.form-control {
+  height: auto;
+}
+
+section#contact .form-group textarea.form-control {
+  height: 236px;
+}
+
+section#contact .form-control:focus {
+  border-color: #1ee2e7;
+  box-shadow: none;
+}
+
+section#contact::-webkit-input-placeholder {
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  color: #bbb;
+}
+
+section#contact:-moz-placeholder {
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  color: #bbb;
+}
+
+section#contact::-moz-placeholder {
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  color: #bbb;
+}
+
+section#contact:-ms-input-placeholder {
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  color: #bbb;
+}
+
+section#contact .text-danger {
+  color: #e74c3c;
+}
+
+
+:root {
+  --jumbotron-padding-y: 3rem;
+}
+
+.jumbotron {
+  padding-top: var(--jumbotron-padding-y);
+  padding-bottom: var(--jumbotron-padding-y);
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: calc(var(--jumbotron-padding-y) * 2);
+    padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+footer {
+  padding: 25px 0;
+  text-align: center;
+}
+
+footer span.copyright {
+  text-transform: uppercase;
+  text-transform: none;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  line-height: 40px;
+}
+
+footer ul.quicklinks {
+  margin-bottom: 0;
+  text-transform: uppercase;
+  text-transform: none;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  line-height: 40px;
+}
+
+ul.social-buttons {
+  margin-bottom: 0;
+}
+
+ul.social-buttons li a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  font-size: 20px;
+  line-height: 40px;
+  outline: 0;
+  color: #fff;
+  background-color: #222;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+  background-color: #1ee2e7;
+}
+
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+  outline: 0;
 }

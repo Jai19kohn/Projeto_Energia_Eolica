@@ -11,15 +11,15 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <!-- Google fonts -->
   <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
 
-
-<body> <!-- Navigation -->
-  <div id="nav" class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+<body> 
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed">
+    <a class="navbar-brand" href="#"><img src="img/wind.jpeg" width="50px" alt=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
@@ -31,36 +31,36 @@
           <a class="nav-link" href="#about">História</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Preços</a>
-        </li>
+            <a class="nav-link" href="#portifolio">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Tipos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#noBrasil">No Brasil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#aerogerador">Aerogerador</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#vantagens">Vantagens</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portifolio">Curiosidades</a>
+          </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#">Desativado</a>
+          <a class="nav-link" href="#contact">Contato</a>
         </li>
       </ul>
     </div>
-  </div>
-  <!--
-  <nav id="porta" class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-item nav-link active" href="#home">Wind Power <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" href="#about">Historia</a>
-        <a class="nav-item nav-link" href="#portifolio">Valores</a>
-        <a class="nav-item nav-link" href="#contact">Contato</a>
-      </div>
-    </div>
   </nav>
--->
 
   <!-- first section - Home -->
   <div id="home" class="home">
     <div class="text-vcenter">
       <h1>Wind Power</h1>
       <h2>O poder do vento</h2>
-      <p>Transformando seus ventos em poder e energia.</p>
+      <h6>Transformando seus ventos em poder e energia.</h6>
       <a href="#about" class="btn btn-default btn-lg">Continue</a>
     </div>
   </div>
@@ -71,7 +71,6 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-6">
-          <!-- <img src = "https://i.imgur.com/1io9TqF.jpg?1" alt=""/>-->
           <img src="img/energia.webp" alt="" />
         </div>
         <div class="col-sm-6 text-center">
@@ -89,18 +88,14 @@
     </div>
   </div>
 
-
   <!-- /second section -->
-
   <div id="portifolio" class="pad-section">
     <div class="container">
-      <center>
-        <div class="tenor-gif-embed" data-postid="14099853" data-share-method="host" data-aspect-ratio="1"
+        <div id="gif" class="tenor-gif-embed" data-postid="14099853" data-share-method="host" data-aspect-ratio="1"
           data-width="100px">
           <a href="https://tenor.com/view/ypf-energia-energy-energiaquenosune-aerogenerador-gif-14099853"></a>
           <a href="https://tenor.com/search/ypf-stickers"></a>
         </div>
-      </center>
       <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
       <h2 class="text-center">Valores da Nossa Empresa</h2>
       <hr />
@@ -231,126 +226,171 @@
       <section id="vantagens"> 
         <div class="container">
         <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading">Vantagens de ter energia eólica na sua casa</h2>
+          <div class="col-sm-12 text-center">
+            <h2 class="section-heading">Vantagens de ter energia eólica</h2>
             <h3 class="section-subheading text-muted">Os motivos que precisavam para você mudar para energia eólica</h3>
-        <ul>
-            <li>É uma fonte de energia inesgotável;</li>
-            <li>Não emite gases;</li>
-            <li>Não gera resíduos;</li>
-            <li>Os geradores podem ser instalados em áreas sem a necessidade de deslocamento da comunidade, sendo
-                compatível a permanência de
-                atividades como agricultura e pecuária;</li>
-            <li>Aumenta a autonomia energética do país;</li>
-            <li>Reduz a dependência de combustíveis fósseis;</li>
-            <li>É uma fonte barata de energia se for considerado o investimento a longo prazo;</li>
-            <li>A instalação ocorre em menos de 6 meses;</li>
-            <li>A recuperação do investimento com fabricação, instalação e manutenção do aerogerador ocorre me menos de
-                seis meses após o início
-                da atividade.</li>
-        </ul>
-    </div>
+          </div>
+          <div class="col-sm-4 desenho">
+            <img  src="img/Wind Power (1).png" alt="">
+            <p>É uma fonte de energia inesgotável;</p></div>
+          <div class="col-sm-4 desenho">
+            <img  src="img/Wind Power (1).png" alt="">
+            <p>Não emite gases;</p></div>
+            <div class="col-sm-4 desenho">
+              <img  src="img/Wind Power (1).png" alt="">
+              <p>Não gera resíduos;</p></div>
+            <div class="col-sm-4 desenho">
+              <img src="img/Wind Power (1).png" alt="">
+              <p>A instalação ocorre em menos de 6 meses;
+              </p></div>
+            <div class="col-sm-4 desenho">
+              <img src="img/Wind Power (1).png" alt="">
+              <p>Aumenta a autonomia energética do país;</p></div>
+            <div class="col-sm-4 desenho">
+              <img src="img/Wind Power (1).png" alt="">
+              <p>Reduz a dependência de combustíveis fósseis;</p></div>
+            <div class="col-sm-4 desenho">
+              <img src="img/Wind Power (1).png" alt="">
+              <p>É uma fonte barata de energia se for considerado o investimento a longo prazo;</p></div>
+            <div class="col-sm-4 desenho">
+              <img src="img/Wind Power (1).png" alt="">
+              <p>Os geradores podem ser instalados em áreas sem a necessidade de deslocamento da comunidade, sendo
+                compatível a permanência de atividades como agricultura e pecuária;</p></div>
+            <div class="col-sm-4 desenho">
+              <img src="img/Wind Power (1).png" alt="">
+              <p>A recuperação do investimento com fabricação, instalação e manutenção do aerogerador ocorre me menos de
+                  seis meses após o início da atividade.
+              </p></div>
+
         </div>
       </div>
       </section>
 
-  <div id="contact" class="pad-section">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-6">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h2 class="panel-title">Additional informatin</h2>
-            </div>
-            <div class="panel-body lead">
-              If you need any further information about my projects and my expertises, please feel free to use the
-              following links on the right box to contact me.<br>
-              Cheers
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h2 class="panel-title">Contact</h2>
-            </div>
-            <div class="panel-body lead">
-              <p>
-                Connect with ismaeldf.at.gmail.com</p>
+      <div class="album py-5 bg-light">
+        <div class="container">
+            <div class="row"> 
+              <div class="col-sm-12 text-center">
+                <h2 class="section-heading">Equipe</h2><br>
+              </div>
+              
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" src="img/Jaine.jpeg" alt="">
 
-              <a href="https://github.com/ismaellima" target="_blank" class="btn btn-warning btn-1g">GitHub</a>
-              <a href="https://ca.linkedin.com/in/ismaeldf" target="_blank" class="btn btn-info btn-1g">Linkedin</a>
-              <a href="https://twitter.com/ismaeldf" target="_blank" class="btn btn-primary btn-1g ">Twitter</a>
+                        <div class="card-body">
+                            <h1 class="text-center">PO and Partner</h1>
+                            <h6>Jaíne Kohn</h6>
+                            <p class="card-text">
+                                A Product Owner é quem conhece o produto e repassa aos desenvolvedores e ajuda no desenvolvimento dos projetos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" src="img/Midian.jpeg" alt="" >
+                        <div class="card-body">
+                            <h1 class="text-center">CEO</h1>
+                            <h6>Midiã da Rocha B. Duarte</h6>
+                            <p>A Diretora Executiva é a dona do produto e quem criou o produto juntamente com seus sócios.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" src="img/sim.jpeg" alt="">
+                        <div class="card-body">
+                            <h1 class="text-center">Developer</h1>
+                            <h6>Jair Colognese Junior</h6>
+                            <p class="card-text">O desenvolvedor é quem criou o site juntamente com a PO, e com as ideias da CEO.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-
       </div>
-    </div>
-  </div>
-  <!-- / fourth section -->
+
+      <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Contate nos</h2>
+                    <h3 class="section-subheading text-light">Envie sua mensagem para nossa equipe</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <form name="sentMessage" id="contactForm" novalidate="">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Seu Nome *" id="name" required="" data-validation-required-message="Please enter your name.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Seu Email *" id="email" required="" data-validation-required-message="Please enter your email address.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control" placeholder="Seu telefone *" id="phone" required="" data-validation-required-message="Please enter your phone number.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Sua mensagem *" id="message" required="" data-validation-required-message="Please enter a message."></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div>
+                                <button type="submit" class="btn btn-xl btn-light">Enviar mensagem</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
   <!-- footer -->
   <footer>
-    <hr />
     <div class="container">
-      <p class="text-right">Copyright - Ismael Lima &copy; 2016</p>
-    </div>
-  </footer>
+        <div class="row">
+            <div class="col-md-4">
+                <span class="copyright">Copyright © Wind Power - Jaíne Kohn e Jair Colognese Junior 2023</span>
+            </div>
+            </div>
+          </div>
+</footer>
   <!-- /footer -->
 
+  <!-- jQuery Version 1.11.0 -->
+  <script src="https://raw.githubusercontent.com/IronSummitMedia/startbootstrap/gh-pages/templates/agency/js/jquery-1.11.0.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="https://raw.githubusercontent.com/IronSummitMedia/startbootstrap/gh-pages/templates/agency/js/bootstrap.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+  <script src="https://raw.githubusercontent.com/IronSummitMedia/startbootstrap/gh-pages/templates/agency/js/classie.js"></script>
+  <script src="https://raw.githubusercontent.com/IronSummitMedia/startbootstrap/gh-pages/templates/agency/js/cbpAnimatedHeader.js"></script>
+
+  <!-- Contact Form JavaScript -->
+  <script src="https://raw.githubusercontent.com/IronSummitMedia/startbootstrap/gh-pages/templates/agency/js/jqBootstrapValidation.js"></script>
+  <script src="https://raw.githubusercontent.com/IronSummitMedia/startbootstrap/gh-pages/templates/agency/js/contact_me.js"></script>
+
+<span style="height: 20px; width: 40px; min-height: 20px; min-width: 40px; position: absolute; opacity: 0.85; z-index: 8675309; display: none; cursor: pointer; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAUCAYAAAD/Rn+7AAADU0lEQVR42s2WXUhTYRjHz0VEVPRFUGmtVEaFUZFhHxBhsotCU5JwBWEf1EWEEVHQx4UfFWYkFa2biPJiXbUta33OXFtuUXMzJ4bK3Nqay7m5NeZq6h/tPQ+xU20zugjOxR/+7/O8539+5znnwMtNTExwJtMb3L/fiLv3botCSmUjeCaejTOb39AiFothfHxcFIrHY8RksZjBsckJcOIRMfFsHD/SsbExUYpnI8DR0dGUGjSb0byhEJp5Uqg5CTSzc2CQleJbMEj9/ywBcGRkJEk9DQqouEVQT1sK444yWI9UonmTjGqauVLEIlHa9x8lAMbj8SSpp0rwKGMVvg8P46vbg0C7na8z8JsMcgHe7jlEa+edRhiLy8n/TUMfu6EvLElk+U0WtGwrTrdfAGQf5J8iiK4LVzDU28t8JtMSocf8E+l68myaNFXm/6rXslLK7ay5TOunuRvZWpJuvwAYjUaTpOIWoquuAZ219RTaxKYp9BbjycoN5FvL9qH9TBX5rvoGdJythvXYSTxdtRnWylO/ZdqrLsGwszzhWQ593z2KlAwCYCQSSZJ6ehZ0W7bD9VBLgN0NCqr3qR7R2rBrL3pu3Sb/7nDlz2uy6cG0OXk0GTbZXzNp8trsPAQdTj6frlWzN2DcXZGKQQAMh8NJ6rpyHe+PnkCr/CAFdZyvpfpjuvkifLF9wIt1Wwlo0OHie1RvWrKa93RjzfzliTzPKz3ltB0/Tevmwp14wGUgHAzSOoUEwFAolFaaBSuhnslPRkJexUJtZ6v5HtUeLswl33n1BgEY5fvhs9sJ3FAiT+QYyyvoAQJuD0KBAFRTJNAuz5/s3gJgMBhMJwrVFRThM5tY5zUF/A4X1f2fvQTRLCuBreoim0YmAbqNJryvPEXeeq46kaNdkQ/1HCncbJKPs9ZSv2VHGfWsZ2hfkhKAfr8/pdxWKx4wwD69PmVfNSOL+lr2w+gYqHpWDtXt1xQ8AMlWU0e1lqLd/APRHoP8AJqWrQG9gYxcPMsvSJUvAA4MDKTUJ7MZLaVy8v+qT21tcDx/OemePr0RTkNrur4A6PP5xCgBsL+/X4wiQDpuuVxOeL1eMYmYeDY6sOp0z+B0OuHxeEQhxkJMFosJiSO/UinOI/8Pc+l7KKArAT8AAAAASUVORK5CYII=);"></span>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="teste.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
   <script src="js.js"></script>
 </body>
-
 </html>
-
-
-
-<!--
-
-    <div class="vantagens">
-        <h1>Vantagens de ter energia eólica na sua casa</h1>
-        <ul>
-            <li>É uma fonte de energia inesgotável;</li>
-            <li>Não emite gases;</li>
-            <li>Não gera resíduos;</li>
-            <li>Os geradores podem ser instalados em áreas sem a necessidade de deslocamento da comunidade, sendo
-                compatível a permanência de
-                atividades como agricultura e pecuária;</li>
-            <li>Aumenta a autonomia energética do país;</li>
-            <li>Reduz a dependência de combustíveis fósseis;</li>
-            <li>É uma fonte barata de energia se for considerado o investimento a longo prazo;</li>
-            <li>A instalação ocorre em menos de 6 meses;</li>
-            <li>A recuperação do investimento com fabricação, instalação e manutenção do aerogerador ocorre me menos de
-                seis meses após o início
-                da atividade.</li>
-        </ul>
-    </div>
-
-    <div class="curiosidades">
-        <h1>Curiosidades sobre a energia eólica</h1>
-        <ul>
-            <li>O vocábulo "eólico" provém do latim Aeolicus, todavia o termo provém da mitologia grega, do deus do
-                vento denominado Éolo.</li>
-            <li>Foi na década de 70, diante da crise do petróleo, que a energia eólica adquiriu maior importância.</li>
-            <li>Atualmente, 3% da energia gerada no mundo provém das fontes de energias eólicas.</li>
-            <li>A energia eólica representa 10% da matriz energética dos países da União Europeia e 39% do abastecimento
-                da Dinamarca.</li>
-            <li>O nordeste brasileiro é região que apresenta o maior potencial de energia eólica no País.</li>
-            <li>Desde 2010, a China é o maior produtor de energia eólica do mundo, seguida dos Estados Unidos e
-                Alemanha.</li>
-            <li>A maior turbina eólica do mundo está instalada no Havaí, tem cerca de 20 andares e pás do tamanho de um
-                campo de futebol.</li>
-            <li>No dia 15 de junho é comemorado o Dia Mundial do Vento.</li>
-        </ul>
-    </div>
-
-
-</body>
-
-
-</html>
--->
